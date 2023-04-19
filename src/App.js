@@ -1,9 +1,16 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <h1>Hello World From E-commerce App</h1>
+    <>
+      <BrowserRouter>
+        <Routes>
+          
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
