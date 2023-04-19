@@ -25,4 +25,7 @@ a {
   background-color: var(--color-286DA8);
 }
 
+.header-upper {
+  background-color: var(--color-286DA8)
+}
 /* Header Part End Here */
