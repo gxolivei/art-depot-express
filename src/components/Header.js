@@ -22,14 +22,14 @@ const Header = () => {
       </header>
       <header className="header-upper py-3">
         <div className="container-xxl">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-2">
               <h2>
                 <Link className="text-white">Art Depot</Link>
               </h2>
             </div>
             <div className="col-5">  
-              <div className="input-group mb-3">
+              <div className="input-group">
                 <input
                   type="text" 
                   class="form-control py-2" 
@@ -37,8 +37,8 @@ const Header = () => {
                   aria-label="Search Your New Piece of Art Here..." 
                   aria-describedby="basic-addon2"
                 />
-                <span className="input-group-text" id="basic-addon2">
-                  <SlMagnifier />
+                <span className="input-group-text p-3" id="basic-addon2">
+                  <SlMagnifier className="fs-6" />
                 </span>
               </div>
             </div>
