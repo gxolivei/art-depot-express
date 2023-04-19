@@ -47,7 +47,7 @@ const Header = () => {
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
                   <Link>
-                    <img src="images/circle-arrow-icon.svg" alt="" />
+                    <img src="images/compare.svg" alt="" />
                     <p></p>
                   </Link>
                 </div>
