@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-286DA8: #286DA8;
+  --color-3488CF: #3488CF;
+}
+
 body {
   font-family: "Rubik", sans-serif;
 }
@@ -12,3 +17,12 @@ a {
   text-decoration: none;
   display: inline-block;
 }
+
+/* Header Part */
+
+.header-top-strip {
+  border-bottom: 1px solid var(--color-3488CF);
+  background-color: var(--color-286DA8);
+}
+
+/* Header Part End Here */
