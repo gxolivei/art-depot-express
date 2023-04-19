@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
+import { SlMagnifier } from 'react-icons/sl';
 
 const Header = () => {
   return (
@@ -36,7 +37,9 @@ const Header = () => {
                   aria-label="Search Your New Piece of Art Here..." 
                   aria-describedby="basic-addon2"
                 />
-                <span className="input-group-text" id="basic-addon2">@example.com</span>
+                <span className="input-group-text" id="basic-addon2">
+                  <SlMagnifier />
+                </span>
               </div>
             </div>
             <div className="col-5"></div>
