@@ -25,14 +25,14 @@ const Header = () => {
           <div className="row">
             <div className="col-2">
               <h2>
-                <Link className="text-white">Art Depot Express</Link>
+                <Link className="text-white">Art Depot</Link>
               </h2>
             </div>
             <div className="col-5">  
               <div className="input-group mb-3">
                 <input
                   type="text" 
-                  class="form-control" 
+                  class="form-control py-2" 
                   placeholder="Search Your New Piece of Art Here..." 
                   aria-label="Search Your New Piece of Art Here..." 
                   aria-describedby="basic-addon2"

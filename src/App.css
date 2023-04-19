@@ -7,6 +7,7 @@
 :root {
   --color-286DA8: #286DA8;
   --color-3488CF: #3488CF;
+  --color-A86328: #febd69;
 }
 
 body {
@@ -18,6 +19,11 @@ a {
   display: inline-block;
 }
 
+.form-control:focus {
+  box-shadow: none;
+  border-color: inherit;
+}
+
 /* Header Part */
 
 .header-top-strip {
@@ -27,5 +33,9 @@ a {
 
 .header-upper {
   background-color: var(--color-286DA8)
+}
+
+.header-upper .input-group-text {
+  background-color: var(--color-A86328);
 }
 /* Header Part End Here */
