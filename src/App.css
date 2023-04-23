@@ -9,6 +9,7 @@
   --color-3B4149: #3b4149;
   --color-FEBD69: #febd69;
   --color-232F3E: #232f3e;
+  --color-BF4800: #bf4800;
 }
 
 body {
@@ -26,20 +27,20 @@ a {
 }
 
 .gap-10 {
-  gap: 0.625rem;
+  gap: 0.625em;
 }
 
 .gap-15 { 
-  gap: 0.938rem;
+  gap: 0.938em;
 }
 
 .gap-30 {
-  gap: 1.875rem;
+  gap: 1.875em;
 }
 
 /* Header Part */
 .header-top-strip {
-  border-bottom: 1px solid var(--color-3B4149);
+  border-bottom: 0.063em solid var(--color-3B4149);
   background-color: var(--color-131921);
 }
 
@@ -56,8 +57,8 @@ a {
 }
 
 .header-upper.header-upper-links img {
-  width: 35px;
-  height: 35px;
+  width: 2.188em;
+  height: 2.188em;
 }
 
 .header-bottom .menu-links a,
@@ -80,14 +81,14 @@ a {
 .header-bottom .dropdown-menu {
   background-color: var(--color-131921);
   width: 100%;
-  padding: 0rem 0rem;
-  transform: translate3d(0rem, 3.838rem, 0rem) !important;
+  padding: 0em 0em;
+  transform: translate3d(0em, 3.838em, 0em) !important;
 }
 
 .header-bottom .dropdown-item {
-  padding: 1.25rem;
-  margin-bottom: 0.188rem;
-  border-bottom: 0.063rem solid var(--color-3B4149);
+  padding: 1.25em;
+  margin-bottom: 0.188em;
+  border-bottom: 0.063em solid var(--color-3B4149);
 
 }
 
@@ -105,13 +106,13 @@ footer {
 }
 
 footer:not(:first-child) {
-  border-top: 0.063rem solid rgba(255, 255, 255, 0.1);
+  border-top: 0.063em solid rgba(255, 255, 255, 0.1);
 }
 
 footer .input-group-text {
   background-color: var(--color-232F3E);
   color: white;
-  padding: 0.5rem 1.063rem;
+  padding: 0.5em 1.063em;
 }
 
 @keyframes moveDisappearAndReturn {
@@ -145,3 +146,26 @@ footer .input-group-text {
   transform: scale(1.2);
 }
 /* Footer Part End Here */
+
+/* Home Page */
+
+.main-banner-content {
+  top: 15%;
+  left: 5%;
+}
+
+.main-banner-content h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: var(--color-BF4800);
+  margin: 0 0 0.75em;
+  letter-spacing: 0.019rem;
+  text-transform: uppercase;
+}
+
+.main-banner-content h5 {
+
+}
+
+/* Home Page Ends */
