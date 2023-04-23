@@ -70,6 +70,14 @@ a {
   text-transform: uppercase;
 }
 
+.header-bottom .dropdown button:hover {
+  color: var(--color-FEBD69) !important;
+}
+
+.header-bottom .menu-links a:hover{
+  color: var(--color-FEBD69) !important;
+}
+
 .header-bottom .dropdown button:before {
   content: url('../public/images/menu.svg');
 }
@@ -82,7 +90,7 @@ a {
   background-color: var(--color-131921);
   width: 100%;
   padding: 0;
-  transform: translate3d(0em, 3.838em, 0em) !important;
+  transform: translate3d(0em, 3.918em, 0em) !important;
 }
 
 .header-bottom .dropdown-item {
@@ -144,6 +152,10 @@ footer .input-group-text {
 
 .social_icons a:hover {
   transform: scale(1.2);
+}
+
+footer .footer-links a:hover {
+  color: var(--color-FEBD69) !important;
 }
 /* Footer Part End Here */
 
