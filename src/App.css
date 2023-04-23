@@ -114,8 +114,31 @@ footer .input-group-text {
   padding: 0.5rem 1.063rem;
 }
 
+@keyframes moveDisappearAndReturn {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(15%, -20%) rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 1;
+  }  
+}
+
+.newsletter-image {
+  position: relative;
+}
+
+.footer-top-data:hover .newsletter-image {
+  animation: moveDisappearAndReturn 1.3s linear infinite;
+}
+
 .social_icons a {
-  transition: transform 0.31s, opacity 0.3s;
+  transition: transform 0.31s;
 }
 
 .social_icons a:hover {
