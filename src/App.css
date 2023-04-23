@@ -5,9 +5,9 @@
 }
 
 :root {
-  --color-286DA8: #286DA8;
-  --color-3488CF: #3488CF;
-  --color-A86328: #febd69;
+  --color-131921: #131921;
+  --color-3B4149: #3b4149;
+  --color-FEBD69: #febd69;
 }
 
 body {
@@ -24,19 +24,26 @@ a {
   border-color: inherit;
 }
 
-/* Header Part */
+.gap-10 {
+  gap: 10px;
+}
 
+.gap-15 { 
+  gap: 15px;
+}
+
+/* Header Part */
 .header-top-strip {
-  border-bottom: 1px solid var(--color-3488CF);
-  background-color: var(--color-286DA8);
+  border-bottom: 1px solid var(--color-3B4149);
+  background-color: var(--color-131921);
 }
 
 .header-upper {
-  background-color: var(--color-286DA8)
+  background-color: var(--color-131921)
 }
 
 .header-upper .input-group-text {
-  background-color: var(--color-A86328);
+  background-color: var(--color-FEBD69);
 }
 
 .header-upper.header-upper-links img {
